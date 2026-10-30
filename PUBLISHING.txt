@@ -1,0 +1,11 @@
+THE RECORD ROOM — PUBLIC READ-ONLY EDITION
+
+1. Copy your existing high-resolution artwork.js and details.js into this folder, replacing placeholders if present.
+2. Do not upload Discogs tokens, Python scripts, personal notes, caches, or private exports.
+3. Upload index.html, style.css, app.js, data.js, artwork.js and details.js to the root of your public GitHub repository.
+4. GitHub repository Settings > Pages > Deploy from a branch > main > /(root) > Save.
+5. Wait for the published site URL shown under Pages.
+
+This first deployment intentionally contains no login or editing. Supabase is not yet connected. Your existing local v1.4 remains the personal editing version.
+
+WARNING: Collection metadata, release IDs and track listings are publicly visible in the published files.
