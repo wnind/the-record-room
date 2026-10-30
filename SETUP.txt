@@ -1,0 +1,13 @@
+THE RECORD ROOM v1.6 — SUPABASE OWNER LOGIN
+
+1. BACK UP your current GitHub files and local v1.4 folder. Keep artwork.js and details.js.
+2. In the NEW Supabase project, create your owner user under Authentication > Users > Add user (or invite user). Use a strong password. Disable public signups in Authentication settings.
+3. Copy the user's UUID from Authentication > Users.
+4. In supabase.sql, replace ALL THREE occurrences of 00000000-0000-0000-0000-000000000000 with your user UUID. Run the SQL in Supabase SQL Editor.
+5. Supabase Project Settings > API: copy Project URL and the anon/publishable key into config.js. NEVER use the service_role/secret key.
+6. Authentication > URL Configuration: set Site URL to https://wnind.github.io/the-record-room/ and add this as an allowed redirect URL if needed.
+7. Upload index.html, app.js, style.css, data.js, config.js, sync.js, and your existing HIGH-RES artwork.js and details.js to the root of GitHub Pages. Do not upload .sql, CSV, cache, or tokens.
+8. Public visitors can browse; sign in using Owner login to unlock Listening Room, ratings, and Played Today.
+
+IMPORTANT: This release does NOT automatically import previous browser-local listening data. Keep the old local v1.4 folder/browser data intact for now. We can build an explicit safe migration next.
+Private data is stored as one JSON object per owner. Do not edit from two devices simultaneously; last save wins. Always verify a saved play on another device before relying on sync.

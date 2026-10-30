@@ -15,3 +15,6 @@
 
 /* Public collection quick lookup */
 .quick-check{margin:22px 0 12px;max-width:520px}.quick-check label{display:block;font-weight:800;letter-spacing:.09em;font-size:11px;margin-bottom:9px}.quick-check-row{display:flex;gap:8px;flex-wrap:wrap}.quick-check-row input{flex:1;min-width:180px;padding:13px;border:2px solid #6b493c;border-radius:7px;background:#fff8e8;color:#352a20;font:inherit}.quick-check-row button{padding:12px 16px;background:#bd633e;color:white;border:0;border-radius:7px;font-weight:800;cursor:pointer}.quick-check p{font-size:13px;margin:8px 0 0}.head-right #importBtn[hidden],#randomMode[hidden]{display:none}
+
+/* Owner sign-in */
+.rr-dialog{border:0;border-radius:14px;background:#f7efde;color:#392d25;padding:28px;width:min(440px,90vw);box-shadow:0 20px 70px #0006}.rr-dialog::backdrop{background:#201a16a8}.rr-dialog h2{font-family:Georgia,serif;font-size:30px}.rr-dialog form#loginForm{display:grid;gap:12px}.rr-dialog label{display:grid;gap:5px}.rr-dialog input{padding:12px;border:1px solid #a99983;border-radius:5px;font-size:16px}.rr-dialog button.primary{padding:13px;background:#c36842;color:white;border:0;cursor:pointer}.rr-close{float:right;border:0;background:transparent;font-size:25px;cursor:pointer}#loginError{color:#a12922}#accountBtn{cursor:pointer}
